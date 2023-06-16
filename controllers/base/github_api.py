@@ -7,17 +7,6 @@ This module contains the `GitHubAPI` class, which allows fetching data from vari
 
 Author: Takrim Rahman Albi
 
-Usage:
-    # Create an instance of GitHubAPI
-    api = GitHubAPI()
-
-    # Fetch data from a specific API endpoint
-    events = api.fetch("repos/owner/repo/events")
-
-    # Process the fetched data
-    for event in events:
-        # Perform actions on each event
-        print(event)
 """
 
 import requests

@@ -7,19 +7,6 @@ This module contains the `GitHubEventsAnalyzer` class, which is responsible for 
 It also includes the `GitHubEventsAnalyzerCLI` class, which extends the `GitHubEventsAnalyzer` functionality to provide a command-line interface.
 
 Author: Takrim Rahman Albi
-
-Usage:
-    # Create an instance of GitHubEventsAnalyzer and call its methods
-    analyzer = GitHubEventsAnalyzer()
-    events = analyzer.fetch_events("owner", "repo")
-    analyzer.display_events(events)
-    filtered_events = analyzer.filter_events(events, "PushEvent")
-    event_statistics = analyzer.calculate_event_statistics(events)
-    most_active_user = analyzer.identify_most_active_user(events)
-
-    # Create an instance of GitHubEventsAnalyzerCLI and call its methods
-    cli = GitHubEventsAnalyzerCLI()
-    cli.fetch_and_display_events("owner", "repo", event_type="PushEvent", page=1, sort_order="chronological")
 """
 
 from controllers.base.github_api import GitHubAPI
