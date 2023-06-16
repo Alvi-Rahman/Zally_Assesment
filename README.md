@@ -13,7 +13,7 @@ git clone https://github.com/your-username/github-events-analyzer.git
 2. Navigate to the project directory:
 
 ```bash
-cd github-events-analyzer
+cd Zally_Assesment
 ```
 
 3. install the required dependencies:
