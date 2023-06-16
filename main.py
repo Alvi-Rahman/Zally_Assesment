@@ -9,7 +9,7 @@ Classes:
 """
 import argparse
 
-from controllers.event_analyzer import GitHubEventsAnalyzerCLI
+from controllers.github_event_analyzer import GitHubEventsAnalyzerCLI
 from utils.custom_exception import InvalidInputException
 
 

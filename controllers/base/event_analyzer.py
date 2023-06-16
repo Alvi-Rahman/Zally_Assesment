@@ -1,5 +1,5 @@
 """
-event_analyzer.py
+github_event_analyzer.py
 
 A Python module providing an EventAnalyzer base class.
 

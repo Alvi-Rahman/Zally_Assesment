@@ -1,7 +1,7 @@
 import pytest
 from unittest.mock import patch
 
-from controllers.event_analyzer import GitHubEventsAnalyzer
+from controllers.github_event_analyzer import GitHubEventsAnalyzer
 
 
 class TestEventAnalyzerController:
