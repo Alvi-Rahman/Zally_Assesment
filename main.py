@@ -23,7 +23,7 @@ class GitHubEventAnalyzerEntryPoint:
     """
 
     @staticmethod
-    def entry_point(owner, repo, event_type, page, sort_order):
+    def main(owner, repo, event_type, page, sort_order):
         """
         Executes the event analysis process.
 
@@ -68,7 +68,7 @@ if __name__ == "__main__":
 
     try:
         analyzer = GitHubEventAnalyzerEntryPoint()
-        analyzer.entry_point(args.owner, args.repo, args.event_type, args.page, args.sort_order)
+        analyzer.main(args.owner, args.repo, args.event_type, args.page, args.sort_order)
     except InvalidInputException as e:
         print(e)
     except Exception as e:
